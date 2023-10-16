@@ -1,13 +1,34 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* height: 100vh;
+  width: 100vw; */
+ 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.poke_pic{
+background: url(./Images/Pokemon.jpeg);
+height: 100vh;
+width: 100vw;
+ opacity: 0.98;
+ 
+ 
+}
+#ddown{
+  color: rgb(186, 240, 79);
+  font-size: 30px;
+  padding: 3%;
+  background-color: black;
+}
+.heading1{
+  text-transform: capitalize;
+  
+}
+.contain_all{
+  margin-left: 40vw;
+  position: absolute;
+  bottom: 30%;
+  
 }
